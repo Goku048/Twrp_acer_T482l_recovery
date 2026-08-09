@@ -1,6 +1,7 @@
 # RECOVERY TREE FOR ACER ONE 8 T4-82L
 
-<img width="265" height="265" alt="acer_1_1" src="https://github.com/user-attachments/assets/8d8c8abe-364f-4f31-acc2-c222ff09915f" />
+<img width="1600" height="1200" alt="phone-2" src="https://github.com/user-attachments/assets/942d9051-e199-4a89-91be-2b8f4e3a04bc" />
+
 
 | Basic         | spechsheet |
 |--------------:|-----------|
