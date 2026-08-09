@@ -1,0 +1,7 @@
+#ro.adb.secure=0
+#ro.postinstall.fstab.prefix=/system
+ro.hardware=mt8766
+ro.vendor.mediatek.platform=MT6761
+ro.crypto.volume.filenames_mode=aes-256-cts
+#ro.vendor.mtk_microtrust_tee_support=
+ro.sys.usb.storage.type=mtp

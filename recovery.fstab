@@ -1,0 +1,12 @@
+# Android File-System Tab
+
+# Logical Partition (ext4)
+system                                                 /system                 ext4     ro                        wait,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey,
+vendor                                                 /vendor                 ext4     ro                        wait,avb,logical,first_stage_mount,
+product                                                /product                ext4     ro                        wait,avb,logical,first_stage_mount,
+
+# Data Partition
+
+/dev/block/platform/bootdevice/by-name/userdata        /data                   ext4                               noatime,nosuid,nodev,noauto_da_alloc,errors=panic wait,check,quota,reservedsize=128M,formattable,resize,checkpoint=block,fileencryption=aes-256-xts
+/dev/block/platform/bootdevice/by-name/md_udc          /metadata               ext4                               noatime,nosuid,nodev,discard wait,formattable,first_stage_mount
+/dev/block/platform/bootdevice/by-name/para            /misc                   emmc             defaults          defaults
